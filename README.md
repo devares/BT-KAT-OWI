@@ -29,9 +29,9 @@ The Excel file contains the current, valid data, which are represented by the fo
 Uniform federal catalog of facts (status: 01.03.2007)](https://fragdenstaat.de/anfrage/alle-versionen-und-unterlagen-des-bundeseinheitlichen-tatbestandskatalogs/595927/anhang/SatzbeschreibungBETBK-gltigab010307__konvertiert.pdf)
 
 # Query the data
-When you click the "Update All" button, current data is downloaded from the website: https://www.kba.de/DE/Themen/ZentraleRegister/FAER/BT_KAT_OWI/bet_datenbank_01072022_text.asc?__blob=publicationFile., which data is filtered out and converted.
+When you click the _"Update All"_ button, current data is downloaded from the website: https://www.kba.de/DE/Themen/ZentraleRegister/FAER/BT_KAT_OWI/bet_datenbank_01072022_text.asc?__blob=publicationFile, which data is filtered out and converted.
 
-Currently the file name is "bet_database_01072022_text" which will surely change in the future. When that happens, the query will no longer work. In this case, this must be taken into account in the link.
+Currently the file name is _"bet_database_01072022_text"_ which will surely change in the future. When that happens, the query will no longer work. In this case, this must be taken into account in the link.
 
 The data is queried using Microsoft Power Query for Excel.
 ```
