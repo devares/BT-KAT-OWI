@@ -1,5 +1,5 @@
 # BT-KAT-OWI
-Import tool for the German ["Bundeseinheitlichen Tatbestandskatalog" (BT-KAT-OWI)](https://www.kba.de/DE/Themen/ZentraleRegister/FAER/BT_KAT_OWI/btkat_node.html) into Excel. This solution is based on the information from the [bkat-owi repository](https://github.com/jomo/bkat-owi/blob/master/README.md).
+Import tool for the German ["Bundeseinheitlichen Tatbestandskatalog" (BT-KAT-OWI)](https://www.kba.de/DE/Themen/ZentraleRegister/FAER/BT_KAT_OWI/btkat_node.html) into Microsoft Excel or [Microsoft PowerBI](https://powerbi.microsoft.com). This solution is based on the information from the [bkat-owi repository](https://github.com/jomo/bkat-owi/blob/master/README.md).
 
 # Data
 The Excel file contains the current, valid data, which are represented by the following columns:
