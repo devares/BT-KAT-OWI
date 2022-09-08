@@ -31,7 +31,7 @@ When you click the _"Update All"_ button, current data is downloaded from the we
 
 Currently the file name is _"bet_database_01072022_text"_ which will surely change in the future. When that happens, the query will no longer work. In this case, this must be taken into account in the link.
 
-The data is queried using Microsoft Power Query for Excel.
+The data is queried using [Microsoft Power Query](https://docs.microsoft.com/power-query) for Excel.
 ```
 let
     Quelle = Csv.Document(Web.Contents("https://www.kba.de/DE/Themen/ZentraleRegister/FAER/BT_KAT_OWI/bet_datenbank_01072022_text.asc?__blob=publicationFile"),[Delimiter="^", Columns=30, Encoding=28591]),
