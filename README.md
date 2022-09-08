@@ -74,7 +74,7 @@ in
     TypAenderung2
 ```
 # Using the data
-The original dataset contains historical information for each *Tatbestand*. This information is preserved until the step *SpaltenEntfernung*. The following steps group the data-set and return the most recent entry per *Tatbestand*.
+The original dataset contains historical information for each *Tatbestand*. This information is preserved until the step *SpaltenEntfernung*. The following steps group the dataset and return the most recent entry per *Tatbestand*.
 
 # License
 Traffic code offense data (Tatbestandskatalog) is in the public domain according to [§ 5 UrhG](https://www.gesetze-im-internet.de/urhg/__5.html). The repository is released under the [MIT](https://choosealicense.com/licenses/mit/).
