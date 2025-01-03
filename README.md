@@ -27,14 +27,14 @@ The Excel file contains the current, valid data, which are represented by the fo
 Uniform federal catalog of facts (status: 01.03.2007)](https://fragdenstaat.de/anfrage/alle-versionen-und-unterlagen-des-bundeseinheitlichen-tatbestandskatalogs/595927/anhang/SatzbeschreibungBETBK-gltigab010307__konvertiert.pdf)
 
 # Query the data
-When you click the _"Update All"_ button, current data is downloaded from the website: https://www.kba.de/DE/Themen/ZentraleRegister/FAER/BT_KAT_OWI/bet_datenbank_22082024_txt.asc?__blob=publicationFile and converted.
+When you click the _"Update All"_ button, current data is downloaded from the website: https://www.kba.de/DE/Themen/ZentraleRegister/FAER/BT_KAT_OWI/bet_datenbank_22082024_txt.asc?__blob=publicationFile&v=7 and converted.
 
 Currently the file name is _"bet_datenbank_22082024_txt"_ which will surely change in the future. When that happens, the query will no longer work. In this case, this must be taken into account in the link.
 
 The data is queried using [Microsoft Power Query](https://docs.microsoft.com/power-query) for Excel.
 ```
 let
-    Quelle = Csv.Document(Web.Contents("https://www.kba.de/DE/Themen/ZentraleRegister/FAER/BT_KAT_OWI/bet_datenbank_22082024_txt.asc?__blob=publicationFile"),[Delimiter="^", Columns=30, Encoding=28591]),
+    Quelle = Csv.Document(Web.Contents("https://www.kba.de/DE/Themen/ZentraleRegister/FAER/BT_KAT_OWI/bet_datenbank_22082024_txt.asc?__blob=publicationFile&v=7"),[Delimiter="^", Columns=30, Encoding=28591]),
     KlassifizierungsTextRecord = [
             0 = "sonstige",
             1 = "Lichtzeichen",
